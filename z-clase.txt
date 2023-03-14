@@ -1,0 +1,24 @@
+1- Explicamos el código que tengo armado
+    - Comentar pagina a partir de la clase de Franco
+    - Cambio en la forma de llamar a los productos
+    - Explicar localStorage (diapos)
+    - Revisar consola
+    - Agregar datos a la consola y recargar pagina
+    - VSC y mostrar ejemplos de los 4 metodos:
+        - localStorage.setItem("Clave", "Valor")
+        - localStorage.getItem("Clave")
+        - localStorage.removeItem("Clave")
+        - localStorage.clear()
+    
+        - setItem() de un Objeto, primero error luego explicar:
+            - JSON.Stringify(Objeto) -> localStorage.setItem("Objeto", JSON.Stringify(Objeto))
+            - JSON.parse(localStorage.getItem("Objeto"))
+    
+    - Explicar ejemplo practico FakeStoreAPI Carrito de compras:
+        - Explicar classlist.toggle("clase") carrito de compras
+        - Detectar todos los botones y agregar evento 'click'
+        - Renderizar en el carrito la estructura
+        - Detectar las X para borrar el productos
+        - Agregar duplicados
+        - Eliminar todos los productos
+        - Total del carrito

@@ -1,0 +1,194 @@
+body{
+    background-color: whitesmoke;
+    transition: 0.3s ease all;
+}
+
+header{
+    background-color: navajowhite;
+    color: #212529;
+}
+
+img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.card{
+    border: 2px solid navajowhite;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-body{
+    background-color: navajowhite;
+    transition: 0.3s ease all;
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+.darkmode-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    transition: 0.3s ease all;
+}
+
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+.container-icon{
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    z-index: 10;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+    width: 30px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#clearCart{
+    background-color: red;
+    color: white;
+}
+
+.btn-clear{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+
+/* //////////////Darkmode//////////////// */
+
+.darkmode{
+    background-color: #002152;
+}
+
+.cardbodyDM{
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.darkmode-iconDM{
+    filter: invert(1);
+}
+
+.headerDM{
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.container-iconDM{
+    filter: invert(1);
+}
+
